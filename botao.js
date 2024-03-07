@@ -10,3 +10,13 @@ function MudarCor() {
     }
 }
 
+document.addEventListener("DOMContentLoaded", function() {
+    const mostrarCardBtn = document.getElementById("mostrarcard");
+    const cardContainer = document.getElementById("cardContainer");
+  
+    mostrarCardBtn.addEventListener("click", function() {
+      // Toggle para exibir/ocultar o cardContainer
+      cardContainer.classList.toggle("hidden");
+
+    });
+});
