@@ -10,6 +10,18 @@ function MudarCor() {
     }
 }
 
+var cor= "branco";
+
+function MudarCor2() {
+    if (cor = "branco") {
+        document.body.style.backgroundColor = "black";
+    }
+    else {
+        document.body.style.backgroundColor = "white";
+        cor = "branco";
+    }
+}
+
 document.addEventListener("DOMContentLoaded", function() {
     const mostrarCardBtn = document.getElementById("mostrarcard");
     const cardContainer = document.getElementById("cardContainer");
