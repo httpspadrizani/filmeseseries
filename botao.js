@@ -1,7 +1,7 @@
 var cor= "preto";
 
 function MudarCor() {
-    if (cor === "preto") {
+    if (cor = "preto") {
         document.body.style.backgroundColor = "white";
     }
     else {
